@@ -107,8 +107,72 @@ header {
     font-size: 48px;
     line-height: 24px;    
     color: #000;
+    margin: 32px 0;
 }
 
 .gus-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #000;
+    text-align: center;
+    width: 875px;
+}
 
+.gus-facts-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gus-fact-item {
+    width: 33%;
+}
+
+.gus-fact-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    margin: 12px 0 32px 0;
+}
+
+.gus-fact-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    width: 280px;
+}
+
+.victory-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.victory-bgd {
+    background: linear-gradient(270.11deg, #A5DEFF 2.07%, rgba(196, 196, 196, 0) 99.24%);
+    width: 1170px;
+    padding: 72px 0;
+    margin-bottom: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.victory-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100px;
+    color: #000;
+    margin: 16px 0;
+}
+
+.victory-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    width: 875px;
+    text-align: center;
 }
